@@ -10,7 +10,7 @@ function setup() {
   cohesionSlider = createSlider(0, 2, 1, 0.1);
   separationSlider = createSlider(0, 2, 3, 0.1);
   imageSizeSlider = createSlider(0.05, 2, 0.2, 0.05);
-  for (let i = 0; i < 200; i++) {
+  for (let i = 0; i < 2; i++) {
     flock.push(new Boid());
   }
 
